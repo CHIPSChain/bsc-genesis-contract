@@ -18,8 +18,8 @@ contract GovToken is
     ERC20VotesUpgradeable
 {
     /*----------------- constants -----------------*/
-    string private constant NAME = "BSC Governance Token";
-    string private constant SYMBOL = "govBNB";
+    string private constant NAME = "CHIPS Governance Token";
+    string private constant SYMBOL = "govCHIPS";
 
     /*----------------- errors -----------------*/
     // @notice signature: 0x8cd22d19
@@ -43,7 +43,7 @@ contract GovToken is
 
     /*----------------- external functions -----------------*/
     /**
-     * @dev Sync the account's govBNB amount to the actual BNB value of the StakingCredit he holds
+     * @dev Sync the account's govCHIPS amount to the actual CHIPS value of the StakingCredit he holds
      * @param stakeCredit the stakeCredit Token contract
      * @param account the account to sync gov tokens to
      */
@@ -52,7 +52,7 @@ contract GovToken is
     }
 
     /**
-     * @dev Batch sync the account's govBNB amount to the actual BNB value of the StakingCredit he holds
+     * @dev Batch sync the account's govCHIPS amount to the actual CHIPS value of the StakingCredit he holds
      * @param stakeCredits the stakeCredit Token contracts
      * @param account the account to sync gov tokens to
      */
@@ -64,7 +64,7 @@ contract GovToken is
     }
 
     /**
-     * @dev delegate govBNB votes to delegatee
+     * @dev delegate govCHIPS votes to delegatee
      * @param delegator the delegator
      * @param delegatee the delegatee
      */
